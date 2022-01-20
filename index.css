@@ -1,0 +1,68 @@
+body{
+    background-color: white ;
+    border: 4px solid blue;
+    display: inline-block;
+}
+table, th, td{
+    border: 2px solid blue;
+    border-collapse: collapse ;
+    width: 100%;
+    text-align: center;
+}   
+td, th{
+    background-color: white;
+    color: blue;
+    
+}
+th  {
+    background-color:blue;
+    color: white;
+    border: 2px solid white;
+}
+   
+
+.bluecolor{
+    color: white;
+    background-color:blue ;
+    text-align: center;
+    border: 2px solid  blue;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-shadow: 1px 1px white;
+} 
+.cadetbluecolor{
+    color: cadetblue;
+    background-color:deeppink ;
+    text-align: center;
+}
+.space{
+     text-indent: 50px;
+}
+.images{
+    
+    text-align:right;
+    float: right;
+}
+ul.iconimgs {
+    list-style-image: url('https://www.w3schools.com/css/sqpurple.gif');
+    list-style-position: outside;
+    margin-left: auto;
+    text-align: left;
+    margin-right: 10px; 
+}
+.place {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    float: left;
+}
+ol {
+    list-style-type: none;
+    float: left;
+    display: inline-flexbox;
+}      
+.sign{
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}  
